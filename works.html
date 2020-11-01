@@ -1,15 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Works</title>
 </head>
 <body>
-    <header>Header</header>
-    <nav>Nav</nav>
-    <main>Main</main>
-    <section>Swction</section>
-    <footer>Footer</footer>
+    <header>
+        <h1>Munkák</h1>
+    </header>
+    <nav id="nav">
+        <a href="index.html">Kezdőlap</a><br>
+        <a href="gallery.html">Galéria</a><br>
+        <a href="about.html">Pár szó rólam</a><br>
+    </nav>
+    <main>
+        <p>
+        <img src="./IMG/Are-you-a-programmer.jpg" alt="Programozó 1" width="500">
+            <strong>Bordverkauf System. </strong> A repülőgépeken történt eladások (alkohol, ékszerek, parfümök, stb) 
+            fedélzeten történő eladását előkészítő, illetve a repülés után feldolgozó program. Repülés előtt az áruk 
+            adatai kiskocsinként
+            ("trolley") memóriakártyára kerültek, a fedélzeten az eladások adatai erre a kártyára íródtak. A földre érkezve
+            a kiolvasott adatok adatbázisba kerültek, amelyekből különböző lekérdezések készültek.<br>
+            (A fedélzeten használt kézi számítógépet angol kollégáink programozták.)
+        </p>
+        <p>
+            <img src="./IMG/Are-you-a-programmer.jpg" alt="Programozó 1" width="500">
+            <strong>
+                Customer Feedback System. </strong>A partner cégeknek (utazási irodák, jegyárusító irodák) számára
+                e-maileket küldött, kérve a méisk felet, h szíveskedjen kitölteni egy kérdőívet. A levél tartalmazott
+                egy linket a partner kódjával, a link őt egy form alapú web felületre vezette, ahol ő a kérdésekre azok
+                fontosságát és azokkal való elégedettségét jelölhette meg egy skálán. Az adato PostgreSQL DB-be kerültek 
+                és az elemzésükre lekérdezések készültek.
+        </p>
+        <p>
+        <img src="./IMG/Are-you-a-programmer.jpg" alt="Programozó 1" width="500">
+        <strong>Biztosítás Díj Optimalizáló Rendszer. </strong> Egy magyar biztosító számára kellett megoldást csinálni
+            abból a célból, h a kevesebbet futó járműveknek kedvezményt tudjanak adni a biztosítási díjból. A cégünk hardweresei 
+            készítették a készülékeket, amelyek a járműbe szerelve a havi futási teljesítményt mérte, és egy GSM modulon 
+            keresztül a központi alkalmazáshoz eljuttatta. Ennek a fejlesztése volt a feladatom: a biztosítottak adatainak
+            karbantartása, a havi futott km-ek kinyerése DB-ból, azok alapján a kapott formula szerint a következő havi 
+            díj kiszámítása.
+        </p>
+    </main>
+    <section>Section</section>
+    <footer>
+        <a href="#nav">Menü</a>
+    </footer>
 </body>
 </html>
